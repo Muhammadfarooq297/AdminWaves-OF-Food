@@ -76,13 +76,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                app:layout_constraintEnd_toEndOf="@+id/textView9"
-                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintEnd_toEndOf="@+id/pendingOrderTextView"
+                app:layout_constraintStart_toStartOf="@+id/pendingOrderTextView"
                 app:layout_constraintTop_toTopOf="@+id/guideline3"
                 app:srcCompat="@drawable/attantion" />
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/pendingOrderTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -104,9 +104,9 @@
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/textView9"
-                app:layout_constraintStart_toStartOf="@+id/textView9"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+                app:layout_constraintEnd_toEndOf="@+id/pendingOrderTextView"
+                app:layout_constraintStart_toStartOf="@+id/pendingOrderTextView"
+                app:layout_constraintTop_toBottomOf="@+id/pendingOrderTextView" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -129,7 +129,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/textColor"
                 android:textSize="14sp"
-                app:layout_constraintStart_toEndOf="@+id/textView9"
+                app:layout_constraintStart_toEndOf="@+id/pendingOrderTextView"
                 app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
             <TextView
@@ -330,10 +330,10 @@
         app:layout_constraintTop_toTopOf="@+id/cardView4">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/createUser"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/cardgreen"
-            >
+            android:background="@drawable/cardgreen">
 
             <ImageView
                 android:id="@+id/imageView11"
